@@ -1,12 +1,14 @@
-@media (max-height: 650px) and (max-width: 375px) {
+@media screen and (max-width: 375px) {
 	.card {
 		height: 70%;
 	}
+}
+@media screen and (max-height: 650px) {
 	body {
 		height: 150vh;
-		width: 100vw;
-		position: relative;
-		background-color: var(--veryDarkBlue);
+	}
+	.card {
+		height: 40%;
 	}
 }
 @media screen and (max-width: 600px) {
